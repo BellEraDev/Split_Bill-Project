@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>โปรแกรมสำหรับหารเงินเวลาไปเที่ยวกับเพื่อน</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- styles -->
+	<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<br>
+เพิ่มค่าใช้จ่าย:  
+<input size="50" type="text" id="list_name" placeholder="รายการค่าใช้จ่าย">
+   จำนวนเงิน:  
+<input size="30" type="number" id="list_cost" min="0" value="0">
+		<button type="button" class="btn" onclick="add_cost();">เพิ่มรายการใช้จ่าย</button>
+<br>
+<p></p>
+เพิ่มคน:  
+<input size="80" type="text" id="list_people" placeholder="ชื่อคนที่จะเพิ่ม">
+		<button type="button" class="btn" onclick="add_people();">เพิ่มคน</button>
+<br>
+<p></p>
+<div id="Result">
+	<table class='table'>
+		<tr>
+			<th>รายการใช้จ่าย</th>
+			<th>รวมทุกคน</th>
+		</tr>
+		<tr class="redText">
+			<th>จ่ายเพิ่ม/ได้คืน</th>
+			<th>0</th>
+		</tr>
+	</table>
+</div>
+
+<!-- javascript -->
+<script src="app.js"></script>
+</body>
+
+</html>

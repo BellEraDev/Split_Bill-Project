@@ -1,0 +1,20 @@
+body {
+  align-items: center;
+  margin-left: 50px;
+}
+th {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: start;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+}
+.btn {
+ color: white;
+ background-color: blue;
+}
+.redText {
+ color: red;
+}
